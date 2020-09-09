@@ -245,7 +245,7 @@ body{
 }
 
 #contact{
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   background-color: #4c4c4c;
   color: #f3c009;
@@ -258,12 +258,12 @@ body{
 }
 
 .contactForm{
-  padding: 2% 10%;
+  padding: 2% 10% 2% 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 50%;
-  width: 30%;
+  height: auto;
+  width: 20%;
   background-color: #f3c009;
   color: #070502;
   border-radius: 2rem;
@@ -285,8 +285,8 @@ input{
 }
 
 button{
-  height: 20%;
-  width: 30%;
+  height: 8vh;
+  width: 50%;
   margin: 20px auto 0px auto;
   outline: none;
   border: none;
