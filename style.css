@@ -24,7 +24,8 @@ body{
 }
 .headSubtext{
   font-size: 2rem;
-  line-height: 2.5rem
+  line-height: 2.5rem;
+  margin: 1rem 0;
 }
 
 .headIcon{
@@ -159,10 +160,6 @@ body{
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-.sectionHeaderText h1{
-  font-size: 4rem;
 }
 
 #about{

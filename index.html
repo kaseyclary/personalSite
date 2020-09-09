@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175953872-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175953872-2');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
   <link href="https://fonts.googleapis.com/css2?family=Recursive&family=Ubuntu&display=swap" rel="stylesheet">  <title>Kasey Clary</title>
 </head>
 <body>
@@ -17,7 +27,7 @@
     </nav>
   </div>
   <header class="header" id='bg-img'>
-    <span class="headerText">I'm Kasey, the&nbsp;</span><span> </span>
+    <span class="headerText">I'm Kasey, the&nbsp;</span>
     <span class="txt-type" data-wait="1500" data-words='["developer","builder","learner","thinker","designer","traveler","real estate investor","weight lifter","guitar player"]'></span>
   </header>
   <section id="freelance">
@@ -123,11 +133,11 @@
       <h2 class="headSubtext">Need some design or development work? <br> Just want to chat? <br>Reach out! I'll be with you ASAP.</h2>
     </div>
     <form class="contactForm" name="contact" method="POST" data-netlify="true">
-        <label>First Name:</label> <input type="text" name="fname">  
-        <label>Last Name: </label> <input type="text" name="fname" /> 
-        <label>Email: </label><input type="email" name="email" />
-        <label>Phone: </label><input type="tel" name="tel" />   
-        <label>Message: </label><input type="text" name="message"></textarea>
+        <label>First Name</label> <input type="text" name="fname">  
+        <label>Last Name</label> <input type="text" name="fname" /> 
+        <label>Email</label><input type="email" name="email" />
+        <label>Phone</label><input type="tel" name="tel" />   
+        <label>Message</label><input type="text" name="message"></textarea>
         <button type="submit">Send</button>
     </form>    
   </section>
