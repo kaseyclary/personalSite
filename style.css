@@ -11,7 +11,72 @@ body{
 }
 
 .whiteText{
-  color: #f1f1f1;
+  color: #4C4C4C;
+}
+
+.headText{
+  font-size: 4rem;
+  line-height: 5rem;
+}
+.headSubtext{
+  font-size: 2rem;
+  line-height: 3rem
+}
+
+.headIcon{
+  align-self: center;
+  justify-self: center;
+  width: 8rem;
+  height: 8rem;
+}
+
+.background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 15rem;
+  margin:auto;
+  border-radius: 50%;
+  background-color: #070502;
+}
+
+.backgroundLight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 15rem;
+  margin:auto;
+  border-radius: 50%;
+  background-color: #4c4c4c;
+}
+
+#develop{
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#design{
+  grid-row: 2;
+  grid-column: 1;
+}
+
+#maintain{
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#designImg{
+  background: url('./design.png') no-repeat center center/cover;
+}
+
+#developImg{
+  background: url('./develop.png') no-repeat center center/cover;
+}
+
+#maintainImg{
+  background: url('./maintain.png') no-repeat center center/cover;
 }
 
 .header{
@@ -22,6 +87,49 @@ body{
   background-color: black;
   color: #fff;
   font-size: 4.5rem;
+}
+
+.freelance{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+}
+
+.freelanceContent{
+  display: grid;
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: #070502;  
+  column-gap: 3rem;
+  grid-template-rows: 30% 40% 40%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.freelanceText{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.freelanceText h1{
+  margin-bottom: 0.5rem;
+}
+
+.sectionHeaderText{
+  grid-row: 1;
+  grid-column: 1/-1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionHeaderText h1{
+  font-size: 4rem;
 }
 
 .about{
@@ -35,15 +143,6 @@ body{
   flex-direction: column;
   justify-content: space-evenly;
   padding: 3% 10%;
-}
-
-.about h1{
-  font-size: 4rem;
-  line-height: 5rem;
-}
-.about h2{
-  font-size: 2rem;
-  line-height: 3rem
 }
 
 .emphasized{
@@ -71,5 +170,5 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.2;
 }
