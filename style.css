@@ -263,6 +263,7 @@ body{
   padding: 2%;
   width: 40%;
   margin: auto;
+  text-align: center;
 }
 
 .contactForm{
@@ -270,8 +271,9 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 40%;
-  width: 20%;
+  box-sizing: border-box;
+  height: 45%;
+  width: 30%;
   background-color: #f3c009;
   color: #070502;
   border-radius: 2rem;
@@ -288,8 +290,8 @@ input{
   outline: none;
   border: none;
   width: 100%;
-  line-height: 2rem;
-  font-size: 1.2rem;
+  line-height: 4vh;
+  font-size: 2vh;
 }
 
 button{
